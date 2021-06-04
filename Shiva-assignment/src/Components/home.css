@@ -1,0 +1,249 @@
+
+  .App {
+    text-align: center;
+  }
+
+  .main-container{
+    background-color: lightgray;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .add-width{
+      width: 23% !important;
+      cursor: pointer;
+      padding: 20px !important;
+      background: white;
+      margin: 0px 5px 20px 15px;
+  }
+
+.close-popup-modal{
+    float: right;
+    position: relative;
+    padding: 10px;
+    cursor: pointer;
+}
+.modal-popup{
+    position: absolute;
+    width: 50%;
+    height: auto;
+padding: 20px;
+top: 0%;
+left: 10%;
+background-color: white;
+}
+
+.popup-img-width{
+     position: relative;
+    top: 5%;
+    list-style-type: none;
+    height: 332px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pagination-wrapper {
+    overflow-x:auto;
+  }
+  
+  .pagination {
+    justify-content: center;
+    margin:30px;
+  }
+  
+  .data-slice {
+    margin-top: 15px;
+    margin: 0 auto;
+  }
+
+  .page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color: #4868a9;
+    border-color: #4868a9
+  }
+  .page-link {
+      color:  #4868a9;
+  }
+  .wrapper{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 100%;
+    padding: 0px 20px;
+    background: lightgray;
+    overflow: hidden;
+    margin: 0px;
+  }
+
+  .header-text{
+    display: flex;
+    position: relative;
+    left: 20px;
+    font-weight: bolder;
+  }
+
+  .header-text h6{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+  }
+  .image-style{
+    position: relative;
+    background: lightgray;
+  }
+
+  .image-style img{
+    width: 200px;
+    background-repeat: no-repeat;
+    height: 200px;
+    background-size: cover;
+  }
+  
+  .image-name{
+    display: flex;
+    padding-top: 10px;
+    color: #4868a9 !important;
+    font-weight: bold !important;
+  }
+
+  .flight-number{
+    padding-left: 10px;
+  }
+
+  .mission-id{
+    display: flex;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .display-list{
+    display: flex;
+    padding-left: 18px;
+  }
+
+  .add-color{
+    color: #4868a9;
+    font-weight: normal;
+  }
+
+  .black{
+    color: black !important;
+    font-weight: bold;
+  }
+
+  .filter{
+    color: black !important;
+    font-weight: bold !important;
+    padding: 10px;
+    display: flex;
+  }
+
+  .divider-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .divider{
+    width: 55%;
+    color: #9a9696;
+    height: 2px !important;
+  }
+
+  .year-button{
+    color: black !important;
+    background-color: #b2d670 !important;
+    opacity: 0.7;
+    margin: 10px 20px !important;
+    padding: 0px !important;
+    font-weight: 600 !important;
+    display: flex;
+  }
+  .year-button-clicked{
+    color: black !important;
+    background-color: #7dbb0b !important;
+    opacity: 0.7;
+    margin: 10px 20px !important;
+    padding: 0px !important;
+    font-weight: 600 !important;
+    display: flex;
+  }
+  .sidenavdrawer{
+    width: 250px;
+    height: 600px;
+    background-color: white;
+    margin-right: 5px;
+  }
+  .width-100{
+    width: 100%;
+  }
+
+  @media (max-width: 700px){
+    .wrapper{
+      flex-direction: column;
+    }
+    .header-text{
+      margin-bottom: 15px;
+    }
+    .year-button {
+      margin: 20px 50px !important;
+  }
+    .add-width {
+      width: 100% !important;
+      margin: 20px 20px 0px 0px;
+    }
+    .sidenavdiv{
+      display: flex;
+    }
+    .sidenavdrawer{
+      width: 100%;
+     height: auto;
+    }
+  }
+
+  @media (min-width: 701px) and (max-width: 1023px){
+    .wrapper{
+      flex-direction: column;
+    }
+    .header-text{
+      margin: 20px;
+    }
+    .year-button{
+      margin: 20px 30px !important;
+    }
+    .add-width {
+      width: 46% !important;
+      margin: 20px 0px 0px 20px;
+    }
+    .sidenavdrawer{
+      width: 95%;
+      height: auto;
+      margin-left: 18px;
+    }
+    .divider {
+      width: 27%;
+    }
+  }
+
+  @media (min-width: 1024px) and (max-width: 1440px){
+    .add-width {
+      width: 22% !important;
+      margin: 0px 0px 20px 20px;
+    }
+    .image-style img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  @media (min-width: 1px) and (max-width: 2000px){
+    .add-width {
+      width: 23% !important;
+      margin: 0px 0px 20px 20px;
+    }
+    .image-style img {
+      width: 100%;
+      height: 100%;
+    }
+  }
